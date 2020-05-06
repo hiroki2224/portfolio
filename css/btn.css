@@ -1,0 +1,89 @@
+.btn-blue,
+.btn-blue.disabled, .btn-blue:disabled {
+  color: #fff;
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+/* focusされた時の枠線の色 */
+.btn-blue:focus, .btn-blue.focus,
+.btn-blue:not(:disabled):not(.disabled):active:focus, .btn-blue:not(:disabled):not(.disabled).active:focus,
+.show > .btn-blue.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.9);
+}
+
+/* hover時（マウスカーソルを重ねた時）の色（通常より濃いor暗めの色を指定） */ 
+.btn-blue:hover {
+  color: #fff;
+  background-color: #3b59a9;
+  border-color: #3b59a9;
+}
+
+ /* active時の色（hover時と同等かさらに濃いor暗めの色を指定） */ 
+.btn-blue:not(:disabled):not(.disabled):active, .btn-blue:not(:disabled):not(.disabled).active,
+.show > .btn-blue.dropdown-toggle {
+  color: #fff;
+  background-color: #3b59c9;
+  border-color: #3b59c9;
+}
+
+
+
+.btn-red,
+.btn-red.disabled, .btn-red:disabled {
+  color: #fff;
+  background-color: #b94047;
+  border-color: #b94047;
+}
+
+/* focusされた時の枠線の色 */
+.btn-red:focus, .btn-red.focus,
+.btn-red:not(:disabled):not(.disabled):active:focus, .btn-red:not(:disabled):not(.disabled).active:focus,
+.show > .btn-red.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(230, 154, 154, 0.9);
+}
+
+/* hover時（マウスカーソルを重ねた時）の色（通常より濃いor暗めの色を指定） */ 
+.btn-red:hover {
+  color: #fff;
+  background-color: #c7363e;
+  border-color: #c7363e;
+}
+
+ /* active時の色（hover時と同等かさらに濃いor暗めの色を指定） */ 
+.btn-red:not(:disabled):not(.disabled):active, .btn-red:not(:disabled):not(.disabled).active,
+.show > .btn-red.dropdown-toggle {
+  color: #fff;
+  background-color: #a82f35;
+  border-color: #a82f35;
+}
+
+
+.btn-grey,
+.btn-grey.disabled, .btn-grey:disabled {
+  color: #fff;
+  background-color: #696969;
+  border-color: #696969;
+}
+
+/* focusされた時の枠線の色 */
+.btn-grey:focus, .btn-grey.focus,
+.btn-grey:not(:disabled):not(.disabled):active:focus, .btn-grey:not(:disabled):not(.disabled).active:focus,
+.show > .btn-grey.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(131, 125, 125, 0.9);
+}
+
+/* hover時（マウスカーソルを重ねた時）の色（通常より濃いor暗めの色を指定） */ 
+.btn-grey:hover {
+  color: #fff;
+  background-color: #5e5959;
+  border-color: #5e5959;
+}
+
+ /* active時の色（hover時と同等かさらに濃いor暗めの色を指定） */ 
+.btn-grey:not(:disabled):not(.disabled):active, .btn-grey:not(:disabled):not(.disabled).active,
+.show > .btn-grey.dropdown-toggle {
+  color: #fff;
+  background-color: #524f4f;
+  border-color: #524f4f;
+}

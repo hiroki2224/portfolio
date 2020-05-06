@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Gotu&display=swap');
+
+.top_message{
+    font-family:'Gotu', sans-serif;
+    color:#3b5998;
+    color:white;
+}
+h2{
+    letter-spacing: .06em;
+}
+.top_link{
+    opacity:.6;
+}
+#top{
+    background:url("../image/background.jpg") no-repeat center center;
+    background-position: center center;
+
+    background-repeat: no-repeat;
+    
+    background-attachment: fixed;
+    
+    background-size: cover;
+    background-color:rgba(255,255,255,0.15);
+    background-blend-mode:lighten;
+}

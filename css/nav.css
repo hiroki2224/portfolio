@@ -1,0 +1,38 @@
+@font-face{
+    font-family: 'Charlet';
+    src: url('../font/chalet-new-york-nineteen-seventy.otf');
+}
+
+.nav_row{
+    background-color: #b94047;
+    }
+.nav_design{
+    border-bottom: 1px solid #B1CECC;
+}
+.nav_letters{
+    color: white;
+    font-family: 'Charlet', sans-serif !important;
+}
+.navbar-nav{
+    font-size: 20px;
+}
+.nav_page_letter:hover{
+    color: #696969;
+    text-decoration: none;
+}
+
+.navbar-toggler{
+    border:none;
+}
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+
+#logo{
+    font-size: 40px;
+}
+#logo:hover{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+html,body{
+    height:100%;
+}
+
+#sidebar{
+    overflow: scroll;
+}
+.tabname{
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    /* font-size: 18px; */
+    /* letter-spacing: .2em; */
+}
+
+.tab-pane a{
+    color: black;
+}
+.tab-pane a:hover{
+    text-decoration: none;
+}

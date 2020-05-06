@@ -1,0 +1,21 @@
+th,td{
+    line-height: 2em;
+    font-size: 20px;
+}
+
+
+.page{
+    text-align: center;
+    margin: 0 auto;
+}
+.page li{
+    display: inline;
+}
+.page li, .page,a{
+    margin-right: 10px;
+}
+.thisPage{
+    text-decoration: underline;
+    color: rgb(39, 93, 112);
+}
+
